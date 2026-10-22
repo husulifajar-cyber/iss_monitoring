@@ -1,0 +1,31 @@
+{
+ "keterangan": "Target publish artefak ISS Monitoring (halaman Today, Daily, Weekly, Call Effort). Dibaca skill iss-artifact-refresh dan call-effort-update.",
+ "aturan": "Publish ke artefak yang dimiliki akun Claude yang sedang dipakai (cek Artifact list scope mine: URL berlabel (mine)). Dari akun pribadi -> artefak pribadi; dari akun kantor -> artefak kantor. Artefak akun lain hanya boleh dipublish kalau read-nya menyebut writer. Kalau tidak ada yang bisa ditulis: data tetap dibangun, publish dilewati, beri tahu user.",
+ "artefak": {
+  "pribadi": {
+   "url": "https://claude.ai/artifact/EY4t8ZPsd9y7ZV3osvPWmp",
+   "akun": "akun pribadi (muhammadhusuli@gmail.com)"
+  },
+  "kantor": {
+   "url": "https://claude.ai/artifact/3LJm3LZNgWzuXYxPvDN27x",
+   "akun": "akun kantor"
+  }
+ },
+ "dibagikan_ke_tim": "pribadi",
+ "dibagikan_ke_tim_catatan": "Link yang sedang dibagikan ke SPV/manager. Sementara pribadi karena akun kantor kena limit (19 Okt 2026); ubah ke kantor kalau sudah normal.",
+ "layout": {
+  "sha": "71f49e489b0bcdffe17f04db2418b55ce9f277c6",
+  "updated": "2026-10-19 21:05",
+  "note": "dari export zip artefak kantor 19 Okt 2026 (punya halaman Call Effort, filter Agent, Revenue Tracker disembunyikan)"
+ },
+ "layout_publish": {
+  "pribadi": {
+   "sha": "71f49e489b0bcdffe17f04db2418b55ce9f277c6",
+   "at": "2026-10-22 11:19"
+  },
+  "kantor": {
+   "sha": "71f49e489b0bcdffe17f04db2418b55ce9f277c6",
+   "at": "2026-10-19 (export zip, versi live kantor)"
+  }
+ }
+}
